@@ -232,3 +232,8 @@ body.with-popup .statusbar-overlay {
 .list-block .swipeout-actions-inner a.swipeout-delete {
     background: #6A7D8D;
 }
+@media all and (max-width: 480px) {
+  .todo-items-list .item-inner:last-of-type {
+    display: none;
+  }
+}
